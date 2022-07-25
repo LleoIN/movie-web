@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black !important;   
+    overflow-x: hidden;
+}
+
+.whiteArrow {
+    color: white !important;
+    font-size: xx-large;
+}
+
+.titleMovie {
+    font-size: 28px;
+    color: rgb(252, 227, 0);
+    margin-left: 30px;
+    margin-top: 3px;
+    font-weight: 700;
+}
+
+#movieBuyTicket {
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    width: 150px;
+    height: 300px;
+    background-color: rgba(252, 167, 39, 1);
+    color: black;
+}
+
+#movieBuyTicketText {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#movieBuyTicketTheater {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#movieBuyTicketDate {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#movieBuyTicketBtn {
+    background-color: black;
+    color: aliceblue;
+    width: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* section1 */
+#section1 {
+    height: 672px;
+}
+
+#movieIntro {
+    height: 500px;
+    width: 30%;
+    float: left;
+    margin: 30px 9% 0 9%;
+}
+
+#movieTitle {
+    display: flex;
+}
+
+#movieTitle h3 {
+    color: aliceblue !important;
+    margin: 0 0 20px 20px;
+    font-weight: 700;
+}
+
+#movieImg {
+    position: relative;
+    width: 432px;
+    height: 574px;
+    box-shadow: 0px 0px 70px 5px #ffffff7a;
+    margin-top: 20px;
+    margin-left: 20%;
+    z-index: 3;
+}
+
+#movieIntroTxt {
+    position: relative;
+    z-index: 3;
+    height: 600px;
+    width: 45%;
+    color: rgb(252, 227, 0);
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 130px;
+}
+
+#movieIntroTxtTop {
+    display: flex;
+}
+
+#movieIntroTxtHeart {
+    position: absolute;
+    top: 20px;
+    margin: 0 0 0 30%;
+    color: red;
+    font-size: xx-large;
+}
+
+#movieIntroHr {
+    margin-left: 5%;
+    width: 80%;
+    background-color: white
+}
+
+#movieIntroMid {
+    color: aliceblue !important;
+    margin: 70px 0;
+    width: 90%;
+}
+
+#movieIntroLast {
+    font-size: 26px;
+    color: rgb(255, 241, 115) !important;
+}
+
+#backgroundImg {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 150px;
+    right: -80px;
+    z-index: 1;
+}
+
+#grayBar1 {
+    position: relative;
+    z-index: 2;
+    top: 200px;
+    height: 300px;
+    background-color: rgba(121, 117, 117, 0.33);
+}
+
+/* section2 */
+#section2 {
+    padding-top: 100px;
+    height: 634px;
+    width: 80%;
+    margin: auto;
+}
+
+#movieDescTop {
+    display: flex;
+    margin: 100px 0 50px 0;
+}
+
+#movieDescLast {
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+}
+
+#movieMoreBtn {
+    width: 100px;
+    height: 45px;
+    margin: 70px 45%;
+}
+
+#movieMoreBtn b {
+    color: black;
+    font-size: 20px;
+}
+
+/* section3 */
+#section3 {
+    height: 50vw;
+    width: 80%;
+    margin: auto;
+}
+
+#movieVideoTop {
+    display: flex;
+    margin: 50px 0 0 0;
+}
+
+#movieVideoLast {
+    margin: auto;
+    width: 88%;
+}
+
+#movieVideo {
+    width: 100%;
+}
+
+/* section4 */
+#section4 {
+    height: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+#movieActorTop {
+    display: flex;
+    margin: 50px 0 0 0;
+}
+
+/* .movieActorSection {
+    width: 32%;
+    margin-top: 70px;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+} */
+
+
+
+/* section5 */
+#section5 {
+    height: 300px;
+    margin: auto;
+    
+}
+#moviebackground{
+    background-image: url("../../../image/大專首頁圖庫/sky.jpg");
+    background-position: 40% 0px;
+    background-color: black;
+}
+#movieTimeTop {
+    display: flex;
+    padding: 100px 0 0 0;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 2;
+}
+
+#movieTimeTitle {
+    width: 16vw;
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+#movieSelectTitle {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-left: 20%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#movieSelect {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.movieTimeSection {
+    width: 100%;
+    padding: 0 10%;
+    padding-bottom: 50px;
+    color: black;
+    
+}
+
+.movieTimeLabel {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 47px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movieTimeBlock {
+    display: flex;
+    margin: 50px 0 50px 50px;
+}
+
+.movieTimeText {
+    font-size: 22px;
+    font-weight: bold;
+    width: 220px;
+    padding-top: 7px;
+    color: aliceblue;
+}
+
+.movieTimeBtnGroup {
+    margin-left: 70px;
+    width: 80%;
+}
+
+.movieTimeBtn {
+    background-color: white !important;
+    color: black !important;
+    width: 103px;
+    height: 45px;
+    font-size: 18px !important;
+    margin: 20px 40px 0 0;
+    border: 4px solid rgb(246, 131, 25, 1) !important;
+    border-radius: 10px!important;
+}
+
+.movieTimeBtn:hover {
+    background-color: rgb(250, 180, 0, 1) !important;
+}
+
+.movieTimeHr {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#movieTimeSeat {
+    margin: auto;
+    width: 60vw;
+    height: 40vw;
+}
+.movieCollapse{
+    width: 100%!important;
+    height: 750px!important;
+    box-shadow: none;
+    border: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* section6 */
+#section6 {
+    height: 800px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    z-index: 3;
+    
+}
+
+#movieRecommendTop {
+    display: flex;
+    padding-top: 50px;
+    margin: 0px 0 0 10%;
+}
+
+
+
+
+@media screen and (max-width:1366px) {
+    .movieTimeText {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1200px){
+
+    #movieImg{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:997px) {
+    #section1 {
+        height: 1200px;
+    }
+
+    #movieIntro {
+        width: 82%;
+    }
+
+    #movieTitle {
+        margin: 0 0 10px 0;
+    }
+
+    #movieImg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 3;
+    }
+
+    #movieIntroTxt {
+        margin: 90px 10% 0 10%;
+        width: 80%;
+    }
+
+    #movieIntroTxtHeart {
+        margin: 0 0 0 40%;
+    }
+
+    #movieIntroMid {
+        width: 100%;
+    }
+
+    #movieIntroHr {
+        width: 90%;
+    }
+
+    #movieDescLast {
+        font-size: 1vw;
+    }
+
+    #movieMoreBtn {
+        width: 80px;
+        margin: 40px 43%;
+    }
+
+    #movieMoreBtn b {
+        font-size: 15px;
+    }
+
+    #movieVideoLast {
+        padding-top: 20px;
+    }
+
+    .titleMovie {
+        font-size: clamp(18px, 22px, 25px);
+        margin-top: -1px;
+        margin-left: 3vw;
+    }
+
+    .whiteArrow {
+        font-size: x-large;
+    }
+
+    .movieActorSection {
+        width: 70%;
+        margin: 15% 15% 0 15%;
+    }
+
+    .movieActorImg {
+        height: 55vw;
+    }
+
+    .movieActorDec {
+        font-size: 2vw;
+        bottom: 21%;
+    }
+
+    .movieActorName {
+        font-size: 3vw;
+        padding-top: 120%;
+    }
+
+    #section5 {
+        height: 300px;
+
+    }
+
+    #movieTimeTop {
+        display: unset;
+    }
+
+    #movieTimeTitleBlock {
+        margin-left: 10%;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #movieTimeTitle {
+        margin-top: -29px;
+        width: 100%;
+    }
+
+    #movieSelectTitle {
+        font-size: clamp(18px, 20px, 23px);
+        width: 300px;
+        margin-top: 80px;
+        margin-left: 12%;
+    }
+
+    #movieSelect {
+        width: 70%;
+        height: 30px;
+        margin: 10px 15% 50px 15%;
+    }
+    #section6 {
+        height: 65vw;
+    }
+    
+}
+@media screen and (max-width:780px){
+    #section6{
+        height: 520px;
+    }
+}
+@media screen and (max-width:740px) {
+    #section2 {
+        height: 500px;
+    }
+
+    #movieRecommendImg2 {
+        display: none;
+    }
+
+    .movieRecommendImg {
+        width: 300px;
+        height: 300px;
+    }
+
+    .movieTimeBlock {
+        display: unset;
+    }
+
+    .movieTimeText {
+        padding-top: 40px;
+        margin-left: 50px;
+    }
+    .movieTimeBtnGroup{
+        margin-bottom: 50px;
+    }
+}
