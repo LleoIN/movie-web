@@ -1,0 +1,112 @@
+#movieSeatSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 700px;
+    
+}
+#movieSeatScreen{
+    width: 80%;
+    background-color: rgb(228, 222, 222);
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(110, 106, 106);
+    margin-bottom: 30px;
+}
+.movieSeatBlock{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+.btnGroup{
+    margin: 15px;
+}
+#movieSeatBuy{
+    background-color: rgb(255, 255, 255);
+    font-weight:bolder;
+    width: 80px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 85%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+.movieSeatBuyLink{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 22px;
+    line-height: 40px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.movieSeatBuyShadow{
+    /* display: none; */
+    width: 83px;
+    height: 43px;
+    border-radius: 5px;
+    margin-left: 85.2%;
+    margin-top: -37px;
+    background-color: rgb(155, 151, 151);
+}
+.movieSeatBtnDiv{
+    display: flex;
+}
+.movieSeatBtn{
+    width: 35px;
+    height: 35px;
+    border: 0ch;
+    background-color: rgb(161, 159, 159);
+    border: 1px black solid;
+    color: aliceblue;
+    margin: 3px;
+    font-size: 16px;
+}
+.movieSeatBtn:nth-child(5){
+    margin-right: 50px;
+}
+.movieSeatBtn:nth-child(15){
+    margin-right: 50px;
+}
+
+
+
+
+
+
+/* photosphere */
+
+.movieSeatViewBtn{
+    width: 30px;
+    height: 30px;
+    margin-left: 48.5%;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+.reactPhotosphereBtn{
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+@media screen and (max-width:963px){
+    .movieSeatBtn{
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+        
+    }
+}
+@media screen and (max-width:1200px){
+   
+}
