@@ -1,0 +1,903 @@
+/* body{
+    overflow-x: hidden;
+    font-size: 24px;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+div#all {
+    /* margin-top: 0px; */
+    /* margin-bottom: 240px; */
+    /* background-color: #ffffff; */
+    width: 100%;
+
+}
+
+div#all_content_Fr {
+    background-image: url("../image/user_background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#all_content {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding: 0px 50px; */
+    /* width: 1100px; */
+    display: flex;
+    height: 470px;
+}
+
+/* 左側列表 */
+ul#myTab {
+    /* margin: auto; */
+    width: 250px;
+    /* border: 0px; */
+    /* box-sizing: border-box; */
+    background: #0000008e;
+    height: 100%;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 5px rgb(97, 96, 96);
+    border-bottom: 0ch;
+
+}
+
+li.nav_item {
+    /* margin-bottom: 50px; */
+    width: 100%;
+    text-align: center;
+    /* padding: 10px 0px; */
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+li.nav_item a {
+    color: rgb(255, 255, 255);
+}
+
+li.nav_item:nth-of-type(1) {
+    /* background: orangered; */
+    line-height: 60px;
+    letter-spacing: 8px;
+    margin: 10px 0px 15px 0px;
+}
+
+li.nav_item:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+    color: white;
+    /* box-shadow: 0 0 5px white; */
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+li.nav_item:hover a {
+    font-size: larger;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/* button[class$='active'] {
+    background-color: rgb(68, 152, 255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 3px black;
+} */
+
+/* 右側內容 */
+div[class ^='tab-content'] {
+    overflow-x: hidden;
+    /* margin-left: 50px; */
+    /* margin-top: 150px; */
+    /* margin-bottom: 150px; */
+    width: 750px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(253, 253, 253, 0.712);
+
+}
+
+
+/* 滾輪 */
+div.tab-content::-webkit-scrollbar {
+    width: 0px;
+}
+
+div.tab-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+
+}
+
+div.tab-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* 內容 */
+div[class ^=tab-pane] {
+    width: 750px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 長條白框 */
+/* div[class ^=row] {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 5px;
+    width: 35%;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    left: 10%;
+} */
+.member_infoText_Fr {
+    /* background-color: #0d6efd; */
+    width: 470px;
+    height: 100%;
+    padding: 70px 20px;
+}
+
+/* 長條白框 */
+.member_infoText {
+    /* background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px; */
+    /* position: relative;
+    top: 18px;
+    left: 10%; */
+    color: black;
+    display: flex;
+    margin: 20px 0px 30px 0px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 50px; */
+}
+
+/* div[class ^=row]>p {
+    color: black;
+} */
+
+p#name {
+    /* padding: 0; */
+    /* width: auto; */
+    /* margin: 3px 0 10px 5px; */
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 5px;
+    width: 310px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    padding: 0px 15px;
+}
+
+
+
+span#firstName,
+span#lastName,
+span#email,
+span#phone,
+span#password {
+    margin-left: 5px;
+    background-color: #bebebe;
+
+}
+
+#firstName {
+    margin: 0px 40px 0px 0px;
+
+}
+
+/* span#firstName {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+/* span#email {
+    margin-left: 5px;
+} */
+
+/* span#phone {
+    margin-left: 5px;
+} */
+
+/* span#password {
+    margin-left: 5px;
+} */
+
+/* a[class *=btn-primary] {
+    position: relative;
+    top: -17px;
+    left: 47.5%;
+    background-color: rgb(173, 5, 5);
+    border: 2px solid rgb(151, 16, 16);
+} */
+
+/* 變更按鈕 */
+.modify_btn {
+    background-color: rgb(173, 5, 5);
+    border: 2px solid rgb(151, 16, 16);
+    color: white;
+    border-radius: 10px;
+    width: 48px;
+    height: 32px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    /* padding: 5px 10px; */
+    margin: 0px 0px 10px 20px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.modify_btn:hover {
+    background-color: rgb(228, 22, 22);
+    color: white;
+    letter-spacing: 2px;
+    width: 51px;
+    height: 33px;
+    margin: 0px 0px 10px 20px;
+
+}
+
+/* 大頭照 */
+.picture_Fr {
+    position: relative;
+    width: 280px;
+
+}
+
+div.text-center {
+    /* position: relative;
+    top: -250px;
+    left: 70%; */
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+div.text-center>img {
+    width: 100%;
+}
+
+img.rounded {
+    transform: translate(-130px, -100px);
+}
+
+button#File_image {
+    /* position: relative;
+    top: -230px;
+    left: 72.5%; */
+    position: absolute;
+    top: 335px;
+    left: 53px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+button#File_image:hover{
+    letter-spacing: 3px;
+   
+}
+
+p#image_button {
+    position: relative;
+    top: -230px;
+    left: 74.9%;
+}
+
+/* div[class ^=row][class $=check] {
+    padding-top: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 180px 0 0 140px;
+} */
+
+/* 更改前確認密碼 */
+.modify_name_Fr {
+    display: flex;
+    position: relative;
+}
+
+#modify_name {
+    background-color: #FFB800;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 5px;
+    width: 520px;
+    height: 45px;
+    line-height: 46px;
+    color: black;
+    margin: 200px auto;
+    /* display: flex; */
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+    position: relative;
+    font-weight: 700;
+}
+
+input#password_check {
+    width: 320px;
+    height: 30px;
+    margin-left: 10px;
+    color: black;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    /* background-color: #0d6efd; */
+
+}
+
+/* button[class ^=next] {
+    position: relative;
+    top: 48px;
+    left: 69%;
+} */
+.modify_name_next {
+    position: absolute;
+    top: 65px;
+    left: 460px;
+}
+
+/* 更改姓名 */
+form#change {
+    display: flex;
+    width: 520px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px black;
+    background-color: white;
+    margin: 200px auto;
+    position: relative;
+}
+
+form#change>p {
+    color: black;
+    width: 50px;
+    height: 35px;
+    line-height: 25px;
+    /* background-color: #0d6efd; */
+    padding-top: 7px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: none;
+    margin: 5px 5px 5px 10px;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+form#change>p:nth-of-type(2) {
+    margin: 5px 5px 5px 40px;
+
+}
+
+/* div#content>div>div>button {
+    position: relative;
+    top: 30px;
+    left: 530px;
+} */
+input#firstName_input,
+input#lastName_input,
+input#email_input,
+input#phone_input,
+input#password_input {
+    margin-top: 7px;
+    /* width: 150px; */
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+input#firstName_input {
+    width: 130px;
+    margin: 7px -10px 0px 10px;
+}
+
+input#lastName_input {
+    width: 190px;
+    margin: 7px 0px 0px 10px;
+}
+
+
+/* form#change>input [class ^=updata_btn] {
+    position: absolute;
+    top: 250px;
+    left: 61.5%;
+  
+} */
+
+.updata_btn {
+    position: absolute;
+    top: 630px;
+    left: 71%;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    border: 2px solid rgb(151, 16, 16);
+    color: white;
+    background-color: rgb(228, 22, 22);
+}
+
+.updata_btn:hover {
+    background-color: rgb(173, 5, 5);
+    border: none;
+}
+
+/* 更改信箱 */
+input#email_input {
+    width: 410px;
+    margin: 7px 0px 0px 20px;
+
+}
+
+/* 更改電話 */
+input#phone_input {
+    width: 400px;
+    margin: 7px 0px 0px 25px;
+}
+
+input#password_input {
+    width: 380px;
+    margin: 7px 0px 0px 50px;
+}
+
+
+
+/* 我的票夾 */
+.ticket_content_Fr {
+    background-image: url("../image/user_background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#profile,
+div#messages,
+div#settings {
+    padding: 10px;
+    font-size: 16px;
+}
+
+div#ticket {
+    margin: 20px 10px;
+}
+
+div#sp {
+    width: 100%;
+    height: 5px;
+}
+
+div#ticket,
+div#record,
+div#consumption,
+div#credit_card {
+    /* margin: 0 0 10px 0; */
+    color: white;
+    background-color: #2b0b3d;
+}
+
+div#record {
+    margin-top: 30px;
+}
+
+a#ticket_content,
+a#record_content {
+    cursor: pointer;
+}
+
+a#ticket_content,
+a#record_content,
+div#next_content,
+div#credit_card_content {
+    color: black;
+    background-color: white;
+    /* border: 2px solid #0d6efd; */
+}
+
+/* 點擊查看票夾 */
+div#record {
+    width: 700px;
+    margin: 10px auto;
+}
+
+div#next_content {
+    overflow: hidden;
+    animation-name: next;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    padding: 0px 20px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+@keyframes next {
+    from {
+        height: 100px;
+    }
+
+    to {
+        height: 300px;
+    }
+}
+
+
+p#ticket_name,
+p#record_name,
+p#credit_card_name {
+    padding: 15px 0 0 30px;
+    font-size: 20px;
+}
+
+/* p[class ^=list] {
+    margin: 15px 0 15px 30px;
+  } */
+
+.list-group-item-heading {
+    font-size: 20px;
+    width: 80%;
+    margin: 15px 0px 0px 35px;
+    font-weight: 600;
+}
+
+.list-group-item-heading p {
+    font-weight: normal;
+    width: 500px;
+}
+
+.list-group-item-heading span {
+    font-weight: normal;
+    margin-left: 40px;
+
+}
+
+/* span#date,
+span#cinemas,
+span#categorys {
+    margin-left: 100px;
+} */
+
+
+p#click_check {
+    margin: -35px 0 15px 590px;
+    /* border: 1px solid rgb(114, 114, 114); */
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(189, 171, 182);
+    box-shadow: 0 1px 5px black;
+    font-size: 16px;
+}
+
+p#click_check:hover {
+    letter-spacing: 1px;
+    background-color: rgb(212, 196, 206);
+    font-weight: 600;
+}
+
+button#download {
+    margin: -160px 0 0 500px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+}
+
+button#download:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+button#cancel {
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    margin: -60px 0 0 -140px;
+}
+
+button#cancel:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* 出示票券qrcode */
+div#down_image,
+div#down_qrcode {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 40%;
+}
+
+div#down_image {
+    width: 310px;
+}
+
+div#down_content {
+    color: black;
+    background-color: #FFB800;
+    width: 300px;
+    height: 240px;
+}
+
+div#down_qrcode {
+    color: black;
+    top: -310px;
+    left: 470px;
+}
+
+div#down_image>img {
+    width: 300px;
+    height: 100px;
+}
+
+div#down_qrcode>img {
+    width: 200px;
+    height: 200px;
+}
+
+
+div#down_image>div>div {
+    float: left;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+div#down_image>div>div:nth-child(1) {
+    margin: 12px 0 2px 12px;
+}
+
+div#down_image>div>div:nth-child(2) {
+    margin: 12px 0 2px 2px;
+}
+
+div#down_image>div>div:nth-child(3) {
+    margin: 12px 0 2px 2px;
+}
+
+div#down_image>div>div:nth-child(4) {
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+    margin: 0 2px 2px 12px;
+}
+
+div#down_image>div>div:nth-child(5) {
+    width: 60.7%;
+    height: 30px;
+    margin: 0 0 2px 0;
+}
+
+div#down_image>div>div:nth-child(6) {
+    width: 91.35%;
+    margin: 0 0 0 12px;
+}
+
+div#down_image>div>div>p {
+    font-size: 30px;
+    margin: 53px 0 0 53px;
+}
+
+div#down_image>div>div:nth-child(2)>p {
+    margin: 53px 0 0 50px;
+}
+
+div#down_image>div>div:nth-child(3)>p {
+    margin: 53px 0 0 0;
+    text-align: right;
+}
+
+div#down_image>div>div:nth-child(4)>p {
+    margin: 0;
+    font-size: 20px;
+}
+
+div#down_image>div>div:nth-child(5)>p {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+div#down_image>div>div:nth-child(6)>p {
+    margin: 30px 0 0 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+div#down_image>div>div>p>span {
+    font-size: 18px;
+}
+
+div#down_qrcode>p:nth-child(1) {
+    margin: 0 0 40px 50px;
+    font-size: 18px;
+}
+
+div#down_qrcode>p:nth-child(3) {
+    background-color: #C1C1C1;
+    text-align: center;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    margin: 18px 0 0 -48px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: pink;
+
+
+}
+
+div#profile>button.reduce {
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: -20px;
+    background-color: transparent;
+    border: 20px solid;
+    border-color: transparent #573434 transparent transparent;
+}
+
+div#profile>button.add {
+    z-index: 1 !important;
+    position: relative;
+    top: 200px;
+    left: 660px;
+    background-color: transparent;
+    border: 20px solid;
+    border-color: transparent transparent transparent #573434;
+}
+
+#cancel_form {
+    position: relative;
+
+}
+
+#cancel_form div {
+    position: absolute;
+    top: 170px;
+    left: 30%;
+
+}
+
+.cancel_form_text {
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.order_cnacel_btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(151, 16, 16);
+    color: white;
+    background-color: rgb(228, 22, 22);
+    margin: 5px 60px;
+    font-size: 18px;
+}
+
+.order_cnacel_btn:hover {
+    background-color: rgb(173, 5, 5);
+    border: none;
+    letter-spacing: 2px;
+
+}
+
+/* 信用卡 */
+div#credit_card {
+    margin: 20px 15px;
+}
+
+div#card_content {
+    margin: 10px 0 10px 70px;
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px 0 black;
+}
+
+div#card_content>p:nth-child(1) {
+    margin: 15px 0 0 15px;
+}
+
+a#credit_card_list>div#card_content>p:nth-child(2) {
+    margin: -25px 0 0 540px;
+}
+
+a#credit_card_new>div>p:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    padding: 0 0 20px 0;
+    line-height: 17px;
+    font-size: 25px;
+    border: 1px dotted black;
+}
+
+a#credit_card_new>div>p:nth-child(2) {
+    margin: -23px 0 0 45px;
+}
+
+a#credit_card_list>div>div,
+a#credit_card_new>div>div {
+    width: 10px;
+    border: 10px solid;
+    border-color: transparent transparent transparent #D9D9D9;
+    margin: -20px 0 0 600px;
+}
+
+a#credit_card_new>div>div {
+    margin: -22px 0 0 600px;
+
+}
+
+.form-group {
+    margin: 10px 0px;
+}
+
+.form-group input {
+    font-size: 18px;
+}
+
+.form-group:nth-of-type(3) input,
+.form-group:nth-of-type(4) input {
+    /* text-align: center; */
+    letter-spacing: 2px;
+}
+
+.credit_form {
+    position: relative;
+}
+
+.credit_btn {
+    position: absolute;
+    top: 345px;
+    left: 490px;
+    letter-spacing: 6px;
+    text-align: center;
+    border-radius: 5px;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    box-shadow: 0 2px 10px black;
+}
+
+.credit_btn:hover {
+    font-size: 20px;
+    letter-spacing: 8px;
+}
